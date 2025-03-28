@@ -1,3 +1,5 @@
+const hop = Object.prototype.hasOwnProperty;
+
 addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request));
 });
